@@ -1,11 +1,12 @@
 #!/bin/bash -ex
 
-while [ "$#" -gt 0 ]; do
-    case "$1" in
-        --containerRegistryURL)                HOST_NAME="$2" ;;
-    esac
-    shift
-done
+#while [ "$#" -gt 0 ]; do
+#    case "$1" in
+#        --containerRegistryURL)                HOST_NAME="$2" ;;
+#    esac
+#    shift
+#done
 
-echo ${HOST_NAME}
-touch /home/ikerlan/${HOST_NAME}
+#echo ${HOST_NAME}
+#touch /home/ikerlan/${HOST_NAME}
+touch /home/ikerlan/scriptOK
