@@ -8,3 +8,4 @@ while [ "$#" -gt 0 ]; do
 done
 
 echo ${HOST_NAME}
+touch /home/ikerlan/${HOST_NAME}
